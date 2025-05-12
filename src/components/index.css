@@ -8,7 +8,7 @@
   
   body {
     color: #020202;
-    background-color: #E5E5E5;
+    background-color: #000;
     line-height: 1.6;
     padding-top: 100px; /* Espaço para o header fixo */
   }
@@ -36,11 +36,10 @@
   }
   
   .menu-icon {
-    display: none;
     font-size: 28px;
     cursor: pointer;
+    display: none;
   }
-  
   
   /* ===================== CONTAINER ===================== */
   .container {
@@ -54,7 +53,6 @@
     gap: 80px;
   }
   
-  
   /* ===================== LOGO ===================== */
   .logo img {
     max-height: 100%;
@@ -63,14 +61,13 @@
     padding-top: 15px;
   }
   
-  
   /* ===================== NAVIGATION ===================== */
   nav.nav-links {
     display: flex;
     align-items: center;
     gap: 30px;
   }
-
+  
   /* Estilo para menu aberto no mobile */
   nav.nav-links.ativo {
     max-height: 300px;
@@ -87,13 +84,6 @@
     z-index: 1001;
   }
   
-  /* Menu icon visível no mobile */
-  .menu-icon {
-    display: none;
-    font-size: 28px;
-    cursor: pointer;
-  }
-
   @media (max-width: 768px) {
     .menu-icon {
       display: block;
@@ -143,13 +133,7 @@
     object-fit: cover;
   }
 
-@media (min-width: 1024px) {
-  .video-background video {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-  }
-}
+
   
   .hero-content {
     position: absolute;
@@ -510,7 +494,7 @@
 @media (min-width: 1024px) {
 
   .video-background video {
-    width: 110vh;
+    width: 109vh;
     height: 143vh;
     object-fit: cover;
 }
@@ -535,6 +519,14 @@
     justify-content: center;
     text-align: center;
   }
+}
+
+@media (min-width: 1440px) {
+    .video-background video {
+        width: 102vh;
+        height: 143vh;
+        object-fit: cover;
+    }
 }
 
 
