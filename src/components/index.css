@@ -579,7 +579,18 @@ section {
     height: 110vh;
     object-fit: cover;
   }
+
+ 
 } 
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+ .close-gallery-button {
+        height: 55px;
+        width: 135px;
+        font-size: 1.rem;
+        margin-top: 7rem;
+    }
+}
 
 /* ===================== WHATSAPP FLOAT ===================== */
   .whatsapp-container {
