@@ -1,7 +1,7 @@
-import React from 'react';
+
 
 const Footer = () => (
-  <footer>
+  <footer id="contact">
     <section style={{ background: '#f8f8f8', padding: '40px 20px' }}>
       <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'flex', flexWrap: 'wrap', alignItems: 'flex-start', justifyContent: 'space-between' }}>
         

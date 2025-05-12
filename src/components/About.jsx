@@ -1,5 +1,3 @@
-import React from 'react';
-
 const About = () => (
   <section id="about" className="about">
     <h2 className="section-title">Sobre nós</h2>

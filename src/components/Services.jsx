@@ -1,4 +1,3 @@
-import React from 'react';
 import servicesData from "../assets/data/ServicesData"; 
 
 export default function Services() {
