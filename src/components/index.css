@@ -491,13 +491,74 @@
     }
   }
   
-@media (min-width: 1024px) {
+@media (max-width: 1023px) {
+  .video-background video {
+    width: 127vh;
+    height: 117vh;
+    object-fit: cover;
+  }
 
+  .logo img {
+    max-height: 80px;
+  }
+
+  .gallery-image {
+    max-width: 100%;
+  }
+
+  .close-gallery-button {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin-top: 2rem;
+  }
+
+  .services {
+    justify-content: flex-start;
+    text-align: left;
+  }
+}
+
+
+/* === MOBILE & TABLET === */
+@media (max-width: 1023px) {
+  .video-background video {
+    width: 127vh;
+    height: 117vh;
+    object-fit: cover;
+  }
+
+  .logo img {
+    max-height: 80px;
+  }
+
+  .gallery-image {
+    max-width: 100%;
+  }
+
+  .close-gallery-button {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin-top: 2rem;
+  }
+
+  .services {
+    justify-content: flex-start;
+    text-align: left;
+  }
+}
+
+
+/* === DESKTOP MÉDIO (1024px a 1279px) === */
+@media (min-width: 1024px) and (max-width: 1279px) {
   .video-background video {
     width: 109vh;
     height: 143vh;
     object-fit: cover;
-}
+    margin: 0 auto;
+    display: block;
+  }
 
   .logo img {
     max-height: 100px;
@@ -514,20 +575,22 @@
     margin-top: 6rem;
   }
 
-
   .services {
     justify-content: center;
     text-align: center;
   }
 }
 
-@media (min-width: 1440px) {
-    .video-background video {
-        width: 102vh;
-        height: 143vh;
-        object-fit: cover;
-    }
+
+/* === DESKTOP GRANDE (1280px ou mais) === */
+@media (min-width: 1280px) {
+  .video-background video {
+    width: 102vh;
+    height: 143vh;
+    object-fit: cover;
+  }
 }
+
 
 
 .gallery {
